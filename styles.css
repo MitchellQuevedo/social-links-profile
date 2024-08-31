@@ -9,16 +9,70 @@ body{
     align-items: center;
     margin: 0 auto;
     min-height: 100vh;
+    width: 100%;
     padding: 0;
-    
+    background-color: hsl(0, 0%, 8%);
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: hsl(0, 0%, 100%);
 }
 
+.card{
+    display:flex;
+    flex-direction: column;
+   text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: min(384px, 90%);
+    min-width: 350px;
+    min-height: 520px ;
+    background-color: hsl(0, 0%, 12%) ;
+    border: 1px solid white;
+    padding: 0;
+}
 
+.main-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding:2.5rem;
 
+}
 
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    min-width: 100%;
+}
 
+img{
+    width:28%;
+    height: 28%;
+    border-radius: 50%;
+}
 
+h1{
+    margin-bottom: 0;
+    font-size:1.3rem;
+    font-weight: 500;
+}
 
+h2{
+    margin-top: 0.4rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color:hsla(75, 94%, 57%, 0.839);
+}
+
+h3{
+    font-size: 0.75rem;
+    font-weight: 400;
+    color:   hsl(0, 3%, 83%);
+}
 
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
