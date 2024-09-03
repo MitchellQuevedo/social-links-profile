@@ -101,7 +101,7 @@ section a{
     border-radius: 5px;
     align-content: center;
     text-decoration: none;
-   
+    transform: scaleY(-1);
 }
 
 
@@ -109,7 +109,7 @@ section a{
 section a:hover{
     background-color: hsla(75, 94%, 57%, 0.839);
     color: hsl(0, 0%, 8%);
-    
+    transform: rotate(360deg);
 }
 
 
